@@ -35,3 +35,11 @@ $('nav a').click(function(event) {
     }, 500);
     event.preventDefault();
 });
+
+// AOS active
+AOS.init({
+    disable: window.innerWidth < 1024,
+    duration: 600,
+    easing: 'ease-out',
+    once: true
+});
